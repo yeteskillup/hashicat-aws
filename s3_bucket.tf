@@ -10,7 +10,7 @@
 #   }
 # }
 resource "aws_s3_bucket" "b" {
-  bucket = "my-tf-test-bucket"
+  bucket = "terryye-terraformcloud-test-bucket"
   acl    = "private"
 
   versioning {
